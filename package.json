@@ -1,0 +1,23 @@
+{
+  "name": "radiodan-skeleton",
+  "version": "0.0.0",
+  "description": "An bare-bones Radiodan application",
+  "main": "main.js",
+  "scripts": {
+    "start": "node_modules/.bin/nf start",
+    "broker": "radiodan-broker",
+    "audio": "radiodan-server ../../config/radiodan-config.json",
+    "physical": "radiodan-physical-ui ../../config/radiodan-pcb.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Nicolaou <andrew.nicolaou@bbc.co.uk>",
+  "license": "Apache-2",
+  "dependencies": {
+    "express": "~4.10.7",
+    "foreman": "~1.2.0",
+    "radiodan": "^1.0.0",
+    "radiodan-broker": "^1.4.0",
+    "radiodan-client": "^1.0.0",
+    "radiodan-physical-ui": "github:radiodan/physical-ui"
+  }
+}

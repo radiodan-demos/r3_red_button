@@ -1,34 +1,15 @@
-Radiodan Skeleton
+Radiodan R3 red button
 ====
 
-A small skeleton application for getting started with Radiodan. It demonstrates:
-- minimal setup and configuration
-- how to control the player from the node app
-- how to control the player from a web application
-- playing a remote stream
-- playing a local file
+A small app based on the skeleton app, but which does all its work serverside (and 
+therefore required a pi2 / 3 or zero - B+ doesn't work.
 
-See the [Radiodan Client Library documentation](http://radiodan-client.readthedocs.org/en/latest/) for all the commands that you can use.
+It alls you to swap a piece of music for the current one, based on a playlist.
 
-## Requirements
+Here it is in action:
 
-- mpd
-- node.js / npm
-- OS X / Pi 2 (arm7)
+https://vimeo.com/161914993
 
-## Installation
+Currently the web side of things doesn't do anything.
 
-    git clone https://github.com/radiodan/radiodan-skeleton.git
-    cd radiodan-skeleton
-    npm install
 
-## Running
-
-    npm start
-
-This project includes the radiodan audio server and radiodan-broker that are installed via NPM.
-
-You can see how to start these by looking in the Procfile.
-
-You can install the server and broker separately if you need more flexibility.
-# r3_red_button

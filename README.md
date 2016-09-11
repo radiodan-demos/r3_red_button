@@ -2,7 +2,7 @@ Radiodan R3 red button
 ====
 
 A small app based on the skeleton app, but which does all its work serverside (and 
-therefore required a pi2 / 3 or zero - B+ doesn't work.
+therefore requires a pi2 / 3 or zero - B+ doesn't work.
 
 It allows you to swap a piece of music for the current one, based on a playlist.
 
